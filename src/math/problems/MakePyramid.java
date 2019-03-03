@@ -13,18 +13,17 @@ public class MakePyramid {
          * * * * * *
 
          */
-        int rows = 5, k = 0;
 
-        for (int i = 1; i <= rows; ++i) {
+        for (int i = 0; i < 10; i++) {
             //insert loop to make spaces------
-            for(int space = 1; space <= rows - i; ++space){
-                System.out.println("  ");
+            for(int j = 0; j < 10 - i; j++){
+                System.out.print(" ");
             }
-
             //insert loop to make stars-------
-           for(){}
-
-            System.out.println("*");
+           for(int k = 0; k <= i; k++){
+               System.out.print("* ");
+           }
+            System.out.println();
             }
 
         }
