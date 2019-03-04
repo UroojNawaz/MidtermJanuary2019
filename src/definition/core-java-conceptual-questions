@@ -27,16 +27,22 @@ What is object?
 A. Data type
 
 What is the entry point of an application?
+A. The main method is the entry point of a Java application.
 
 Why main is static?
+A. It is static so it can be directly implemented within the class.
 
 Which class is the superclass of all classes?
+A. The object class
 
 What is difference between path and classpath variables?
+A. Path is an environment variable used by the operating system to find the executables. Classpath is used by the Java compiler to find the pah of jar files.
 
 What is the difference between an Interface and Abstract class?
+A. Interface cannot be instantiated and abstract class can have instance methods.
 
 Can you make an Object from an Interface and Abstract class ? if not how do you use it ?
+A. You cannot make an object.
 
 What is Access Specifier?
 
@@ -44,46 +50,67 @@ What is OOP ? Define each feature of java OOP.
 A. Object Oriented Programming. Inheritance, Polymorphism, Abstraction, Encapsulation
 
 What is Java Package and which package is imported by default?
+A. Organises a set of related classes and interfaces. Default package is imported
 
 What is API? Name list of API that you have used so far.
+A. Application Programming Interface.
 
 Does java support multiple inheritance, explain why or why not?
+A. It does not support mulitple inheritances but only multiple interfaces.
 
 What is method overloading and when it happens?
+A. It changes the logic of the method
 
 Explain exceptions in java and how to handle it.
+A. Disrupts the normal flow of the program instructions.
 
 What is static keyword in java? How it has been used in variables and methods ?
+A. It means it belongs to the type not the object.
 
 What is final and how it has been used variables and methods?
+A. It is a non-access modifier applicable only to a variable.
 
 What is final, finally and finalize?
+A. Final cant be inherited, Finally will be executed whether exception is handled or not. Finalize is used to clean up processing.
 
 What is a constructor ?
+A. A special method that is used to initialize objects.
 
 Can we have multiple constructors in a class?
+A. Yes you can.
 
 If we don't have a constructor declared, what is called during the object creation?
+A. Default constructor
 
 What is "this" keyword in java ?
+A.The keyword that refers to the reference variable.
 
 What is "super" keyword in java? How many possible way can you use?
+A. Calls all the variables, constructors and methods from the child to the parent class.
 
 What is JVM stand for ?
+A. Java Virtual Machine
 
 Is JVM platform independent?
+A. Yes
 
 What version of java are you using?
+A. 11
 
 What is JAR stand for ?
+A. Java Archive
 
 What is the difference between JDK and JVM?
+A. JRE is the container, JVM is the content
 
 What is the difference between JVM and JRE?
+A. JRE is the container and JVM is the content
 
 What is compile time and run time?
+A. Compile time is when we write the code and the run time is when we read the code.
 
 What is heap?
+A. The Heap is the runtime data are from which memory for all class instances are array are allocated.
 
 How java manage it's memory?
 
