@@ -110,7 +110,7 @@ What is compile time and run time?
 A. Compile time is when we write the code and the run time is when we read the code.
 
 What is heap?
-A. The Heap is the runtime data are from which memory for all class instances are array are allocated.
+A. The Heap is the runtime data are from which memory for all class instances are array are allocated.git
 
 How java manage it's memory?
 
