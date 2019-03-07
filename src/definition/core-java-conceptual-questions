@@ -109,58 +109,85 @@ A. JRE is the container and JVM is the content
 What is compile time and run time?
 A. Compile time is when we write the code and the run time is when we read the code.
 
-What is heap?
-A. The Heap is the runtime data are from which memory for all class instances are array are allocated.git
-
 How java manage it's memory?
+Answer: By collecting garbage once object are not in need anymore.
 
 What is the difference between String, StringBuffer and StringBuilder?
+Answer: String once assigned can not be changed. StringBuffer is mutable means one can change the value of the object .
 
 What is Singleton class?
+Answer: A class that can be used once.
 
 What is Serialization and Deserialization?
+Answer: Serialization is a process of converting an object into a sequence of bytes which can be persisted to a disk or database or can be sent through streams. The reverse process of creating object from sequence of bytes is called deserialization.
 
 when to use transient variable in java?
+Answer: When the object won't be serialized during serialization.
 
 Difference between while and do..while loop?
+Answer: In while loop the condition is checked first, in do while the code executes and then check the condition.
 
 What is Enum?
+Answer: Enum is a data type consisting of a set of named values called elements, members, enumeral, or enumerators of the type.
 
 What is Iterator?
+Answer: An iterator is an object that enables a programmer to traverse a container, particularly lists.
 
 Which one will take more memory, an int or Integer?
+Answer: int = Integer.
 
 Why is String Immutable in Java?
+Answer: Because String objects are cached in String pool.
 
 What is constructor chaining in Java?
+Answer: Constructors in Java. Constructor chaining is the process of calling one constructor from another constructor with respect to current object.
 
 The difference between Serial and Parallel Garbage Collector?
+Answer: A serial collector is a default copying collector which uses only one garbage collector thread for the garbage collector operation, while a parallel collector uses multiple garbage collection threads for the garbage collection operation.
 
 What is JIT stands for?
+Answer: Just I =n Time.
 
 Explain Java Heap space and Garbage collection?
+Answer: Garbage collection is the process of freeing space in the heap or the nursery for allocation of new objects.
 
 Can you guarantee the garbage collection process?
+Answer: No.
 
 What is the difference between stack and heap in Java?
+Answer: Whenever an object is created, it's always stored in the Heap space and stack memory contains the reference to it. Stack memory only contains local primitive variables and reference variables to objects in heap space.
 
 What is reflection in java and why is it useful?
+Answer: Java Reflection makes it possible to inspect classes, interfaces, fields and methods at runtime, without knowing the names of the classes, methods and it is useful because it supports dynamic retrieval of information about classes and data structures by name, and allows for their manipulation within an executing Java program.
 
 what is multithreading in java?
+Answer: Multithreading in java is a process of executing multiple threads simultaneously. Thread is basically a lightweight sub-process, a smallest unit of processing. Multiprocessing and multithreading, both are used to achieve multitasking.
 
 What is the use of synchronization in Java?
+Answer: Synchronized keyword in Java is used to provide mutually exclusive access to a shared resource with multiple threads in Java.
 
 What is Framework?
+Answer: Framework is a broad software development platforms.
 
 What are the testing Framework available in java?
+Answer: Unit, JWalk, Mockito, TestNG, JwebUnit, TagUnit, HTMLUnit, Arquillian.
 
 Difference between jUnit and testNG?
+Answer: TestNG is more advance in parameterize testing, dependency testing and suite testing.
 
 What are the dependencies for this project?
+Answer: gson-2.6.2.jar
+        java-jason.jar
+        javax.jason.jar
+        mongo-java-driver-3.4.0.jar
+        mysql-connector-java-8.0.13.jar
+        testng-6.8.7.jar
 
-What is dependency injection in java?
+what is dependency injection in java?
+Answer: When dependency injection is used, a Java class can be tested in isolation.
 
 What is static binding and dynamic binding?
+Answer: Static binding in Java occurs during compile time while dynamic binding occurs during runtime.
 
 
 
