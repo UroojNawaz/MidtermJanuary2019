@@ -2,40 +2,8 @@ package design;
 
 import java.util.Scanner;
 
-public class EmployeeInfo extends AbstractEmployee{
+public class EmployeeInfo {
 
-
-	/*This class can be implemented from Employee interface then add additional methods in EmployeeInfo class.
-	 * Also, Employee interface can be implemented into an abstract class.So create an Abstract class
-	 * then inherit that abstract class into EmployeeInfo class.Once you done with designing EmployeeInfo class,
-	 * go to FortuneEmployee class to apply all the fields and attributes.
-	 *
-	 * Important: YOU MUST USE the
-	 * OOP(abstraction,Encapsulation, Inheritance and Polymorphism) concepts in every level possible.
-	 * Use all kind of keywords(super,this,static,final........)
-	 * Implement Nested class.
-	 * Use Exception Handling.
-	 *
-	 */
-	private String name;
-	private int employeeId;
-	private String deptName;
-	private static double salary;
-	private char gender;
-
-
-	public EmployeeInfo () {}
-
-	public EmployeeInfo(String name, int employeeId, String deptName, char gender, double salary) {
-		this.name = name;
-		this.employeeId = employeeId;
-		this.deptName = deptName;
-		this.gender = gender;
-		this.salary=salary;
-	}
-	/*
-	 * declare few static and final fields and some non-static fields
-	 */
 	static String companyName;
 
 	/*
@@ -49,86 +17,10 @@ public class EmployeeInfo extends AbstractEmployee{
 	 * Must implement below constructor.
 	 */
 	public EmployeeInfo(int employeeId){
-		this.employeeId=employeeId;
 
 	}
 	public EmployeeInfo(String name, int employeeId){
-		this.name=name;
-		this.employeeId=employeeId;
 
-	}
-
-	public EmployeeInfo(String name, int employeeId, String deptName, double salary, char gender) {
-		this.name = name;
-		this.employeeId = employeeId;
-		this.deptName = deptName;
-		this.salary = salary;
-		this.gender = gender;
-	}
-
-	public String getName() {
-		return name;
-	}
-
-	public void setName(String name) {
-		this.name = name;
-	}
-
-	public int getEmployeeId() {
-		return employeeId;
-	}
-
-	public void setEmployeeId(int employeeId) {
-		this.employeeId = employeeId;
-	}
-
-	public void assignDepartment() {
-		this.deptName=deptName;
-
-	}
-
-	public String getDept(String dept) {
-		return deptName;
-	}
-
-	public char getGender() {
-		return gender;
-	}
-
-	public void setGender(char gender) {
-		this.gender = gender;
-	}
-
-	public double getSalary() {
-		return salary;
-	}
-
-	public void setSalary(double salary) {
-		this.salary = salary;
-	}
-	public static String getCompanyName() {
-		return companyName;
-	}
-
-	public static void setCompanyName(String companyName) {
-		EmployeeInfo.companyName = companyName;
-	}
-	public void farewell (){
-
-	}
-
-	@Override
-	public void farewell(int date) {
-		System.out.println("His farewell date was "+date);
-
-	}
-	public void annualSalary () {
-		double yearlySalary = salary*10;
-		System.out.println(yearlySalary);
-		calculateEmployeeBonus(10);
-	}
-
-	private void calculateEmployeeBonus(int i) {
 	}
 
 	/*
@@ -139,23 +31,11 @@ public class EmployeeInfo extends AbstractEmployee{
 	 * So you probably need to send 2 arguments.
 	 *
 	 */
-	public static int calculateEmployeeBonus(int numberOfYearsWithCompany, double yearlySalary){
-		double yearlyBonus = 0.00;
-		if (numberOfYearsWithCompany == 3) {
-			yearlyBonus = yearlySalary* 0.5;
-		} else if (numberOfYearsWithCompany == 4) {
-			yearlyBonus = yearlySalary * 0.08;
-		} else if (numberOfYearsWithCompany == 3) {
-			yearlyBonus = yearlySalary * 0.10;
-		} else if (numberOfYearsWithCompany == 2) {
-			yearlyBonus = 0;
-			System.out.println("Your performance is poor, try to improve.");
-		} else {
-			yearlyBonus = 0;
-			System.out.println("You don't deserve bonus.");
-		}
-		return (int) yearlyBonus;
+	public static int calculateEmployeeBonus(int numberOfYearsWithCompany){
+		int total=0;
+		return total;
 	}
+
 	/*
 	 * This methods should calculate Employee Pension based on salary and numbers of years with the company.
 	 * Then it will return the total pension. So you need to implement the logic.
@@ -173,28 +53,8 @@ public class EmployeeInfo extends AbstractEmployee{
 		String convertedTodaysDate = DateConversion.convertDate(todaysDate);
 
 		//implement numbers of year from above two dates
-		String startYear = convertedJoiningDate.substring(convertedJoiningDate.length() - 4, convertedJoiningDate.length());
-		String currentYear = convertedTodaysDate.substring(convertedTodaysDate.length() - 4, convertedTodaysDate.length());
-		int start = Integer.parseInt(startYear);
-		int current = Integer.parseInt(currentYear);
-
 		//Calculate pension
-		int numberOfYears = current - start;
 
-		if (numberOfYears >= 5) {
-			total = (int) (salary * .25);
-		} else if (numberOfYears == 4) {
-			total = (int) (salary * .20);
-		} else if (numberOfYears == 3) {
-			total = (int) (salary * .15);
-		} else if (numberOfYears == 2) {
-			total = (int) (salary * .10);
-		} else if (numberOfYears == 1) {
-			total = (int) (salary * .05);
-		} else if (numberOfYears == 0) {
-			total = 0;
-		}
-		System.out.println("Total pension: $" + total);
 
 
 		return total;
