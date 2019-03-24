@@ -2,14 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bf125068-80bd-41d7-926e-f856450ecbd3" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/design/AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/EmployeeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/EmployeeInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/design/FortuneEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design/FortuneEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/CnnAPI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/parser/XmlReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/parser/XmlReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Anagram.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Anagram.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Palindrome.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Palindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/Permutation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/Permutation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,126 +23,115 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithm/Numbers.java">
+        <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="114" column="1" selection-start-line="114" selection-start-column="1" selection-end-line="114" selection-end-column="1" />
+            <state relative-caret-position="-1176">
+              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1948#1971#0" expanded="true" />
+                <element signature="e#2175#2184#0" expanded="true" />
+                <element signature="e#2231#2240#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/FortuneEmployee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/Months.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/UnitTestingEmployeeInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/parser/CnnAPI.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1845">
-              <caret line="123" column="1" selection-start-line="123" selection-start-column="1" selection-end-line="123" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/json/parser/Employee.java">
+        <entry file="file://$PROJECT_DIR$/src/parser/Student.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="369">
-              <caret line="49" column="1" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+              <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+              <folding>
+                <element signature="e#1003#1004#0" expanded="true" />
+                <element signature="e#1092#1093#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="615">
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#666#683#0" expanded="true" />
+                <element signature="e#1127#1144#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/DuplicateWord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="354">
+              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <folding>
+                <element signature="e#859#867#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="369">
+              <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#607#615#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java">
+        <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/AbstractClass.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design/EmployeeInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2706">
-              <caret line="80" column="16" selection-start-line="80" selection-start-column="16" selection-end-line="80" selection-end-column="16" />
+            <state relative-caret-position="390">
+              <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
               <folding>
-                <element signature="e#1944#1945#0" expanded="true" />
-                <element signature="e#1962#1963#0" expanded="true" />
-                <element signature="e#1999#2000#0" expanded="true" />
-                <element signature="e#2022#2023#0" expanded="true" />
-                <element signature="e#2053#2054#0" expanded="true" />
-                <element signature="e#2077#2078#0" expanded="true" />
-                <element signature="e#2123#2124#0" expanded="true" />
-                <element signature="e#2158#2159#0" expanded="true" />
-                <element signature="e#2197#2198#0" expanded="true" />
-                <element signature="e#2212#2213#0" expanded="true" />
-                <element signature="e#2256#2257#0" expanded="true" />
-                <element signature="e#2274#2275#0" expanded="true" />
-                <element signature="e#2383#2384#0" expanded="true" />
-                <element signature="e#2398#2399#0" expanded="true" />
-                <element signature="e#2484#2485#0" expanded="true" />
-                <element signature="e#2506#2507#0" expanded="true" />
-                <element signature="e#2534#2535#0" expanded="true" />
-                <element signature="e#2554#2555#0" expanded="true" />
-                <element signature="e#2593#2594#0" expanded="true" />
-                <element signature="e#2620#2621#0" expanded="true" />
-                <element signature="e#2650#2651#0" expanded="true" />
-                <element signature="e#2670#2671#0" expanded="true" />
-                <element signature="e#2711#2712#0" expanded="true" />
-                <element signature="e#2738#2739#0" expanded="true" />
-                <element signature="e#2779#2780#0" expanded="true" />
-                <element signature="e#2804#2805#0" expanded="true" />
-                <element signature="e#2862#2863#0" expanded="true" />
-                <element signature="e#2907#2908#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -162,8 +153,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/codelab/status/roster-file-12-23-2018.csv" />
-        <option value="$PROJECT_DIR$/src/string/problems/Anagram.java" />
-        <option value="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" />
         <option value="$PROJECT_DIR$/src/math/problems/Fibonacci.java" />
         <option value="$PROJECT_DIR$/src/math/problems/Factorial.java" />
         <option value="$PROJECT_DIR$/src/datastructure/CollectionView.java" />
@@ -183,7 +172,6 @@
         <option value="$PROJECT_DIR$/src/definition/core-java-conceptual-questions" />
         <option value="$PROJECT_DIR$/src/definition/data-structure-questions" />
         <option value="$PROJECT_DIR$/src/datastructure/UseMap.java" />
-        <option value="$PROJECT_DIR$/src/parser/XmlReader.java" />
         <option value="$PROJECT_DIR$/src/design/Employee.java" />
         <option value="$PROJECT_DIR$/src/design/EmployeeInfo.java" />
         <option value="$PROJECT_DIR$/src/design/AbstractClass.java" />
@@ -191,6 +179,16 @@
         <option value="$PROJECT_DIR$/src/json/parser/CnnAPI.java" />
         <option value="$PROJECT_DIR$/src/json/parser/Employee.java" />
         <option value="$PROJECT_DIR$/src/json/parser/JsonReaderUtil.java" />
+        <option value="$PROJECT_DIR$/src/parser/ProcessStudentInfo.java" />
+        <option value="$PROJECT_DIR$/src/parser/Student.java" />
+        <option value="$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java" />
+        <option value="$PROJECT_DIR$/src/parser/XmlReader.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/Anagram.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/DuplicateWord.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/Palindrome.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/Permutation.java" />
+        <option value="$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java" />
       </list>
     </option>
   </component>
@@ -257,6 +255,18 @@
             </path>
             <path>
               <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="parser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MidtermJanuary2019" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="problems" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MidtermJanuary2019" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -266,7 +276,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553381876659" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553387111509" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -473,13 +483,6 @@
         <state relative-caret-position="-810" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/codelab/status/roster-file-02-23-2019.csv">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -629,20 +632,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/DuplicateWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="2" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/UnitTestSorting.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -666,16 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/datastructure/UseQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -686,39 +665,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="3" lean-forward="true" selection-start-line="4" selection-start-column="3" selection-end-line="4" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/qtp.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/parser/selenium.xml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/Student.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithm/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -830,6 +781,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="369">
           <caret line="73" column="1" selection-start-line="73" selection-start-column="1" selection-end-line="73" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/ProcessStudentInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1176">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1948#1971#0" expanded="true" />
+            <element signature="e#2175#2184#0" expanded="true" />
+            <element signature="e#2231#2240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/Student.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="60" column="1" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
+          <folding>
+            <element signature="e#1003#1004#0" expanded="true" />
+            <element signature="e#1092#1093#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/UnitTestingStudentProfile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parser/XmlReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Anagram.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="38" column="1" selection-start-line="38" selection-start-column="1" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/DetermineLargestWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#666#683#0" expanded="true" />
+            <element signature="e#1127#1144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/DuplicateWord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="354">
+          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#859#867#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Palindrome.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/Permutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="369">
+          <caret line="47" column="1" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#607#615#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/string/problems/UnitTestingStringProblem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
