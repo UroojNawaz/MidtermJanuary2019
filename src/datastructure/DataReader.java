@@ -75,24 +75,24 @@ public class DataReader {
 		for (String x : text) {
 			System.out.println(x);
 		}
-		//Retrive as FIFO order
+		//Retrieve as FIFO order
 		for (int b = 0; b<List.size(); b++) {
 			System.out.println(List.get(b));
 		}
-		//Retrive in FILO order
+		//Retrieve in FILO order
 		for (int c=Stack.size(); c>=0; --c) {
 			System.out.println(Stack.get(c));
 		}
 
-		//Retrive using for each loop
+		//Retrieve using for each loop
 		for (String elements: Stack) {
 			System.out.println(elements);
 		}
 
 		//Retrieve using iterator
-		Iterator<String> itrator = List.iterator();
-		while (itrator.hasNext()){
-			System.out.println(itrator.next()+" ");
+		Iterator<String> iterator = List.iterator();
+		while (iterator.hasNext()){
+			System.out.println(iterator.next()+ " ");
 		}
 
 		//Retrieve using while loop
